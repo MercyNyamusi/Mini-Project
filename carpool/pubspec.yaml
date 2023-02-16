@@ -54,7 +54,14 @@ dev_dependencies:
   flutter_native_splash: ^2.0.1+1
 
 flutter_native_splash:
-  image:
+
+#Run the following commands to generate the splash screen
+#flutter clean
+#flutter pub get
+#flutter pub run Flutter_native_splash:create
+
+  color: "ffffff" # white color
+  image: Carpool.png
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
